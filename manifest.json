@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Pepper",
+  "name": "Pepperfy",
   "version": "1.0.0",
   "description": "Google Chrome extension that consumes Mock Tools integrated in web apis",
   "permissions": [
