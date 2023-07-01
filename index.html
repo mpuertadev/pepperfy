@@ -1,57 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/icon.png" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Mocky Tool</title>
-</head>
-
-<body>
-  <div id="new-mock" class="container">
-    <h1 style="text-align: center; font-size: 50px;">Nuevo Mock</h1>
-    <input type="text" id="mock-name" placeholder="ordenador_asus">
-    <div class="pageTypes">
-      <label class="rbcontainer">PLP
-        <input id="plpchecker" type="radio" checked="checked" name="radio">
-        <span class="checkmark"></span>
-      </label>
-      <label class="rbcontainer">PDP
-        <input id="pdpchecker" type="radio" name="radio">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-    <div class="buttons-container">
-      <a class="btn btn-green" id="createMock">Crear Mock</a> 
-      <a class="btn btn-red" id="clearMock">Limpiar Mock</a>
-    </div>
-    <div id="config">
-      <img src="./img/gear-solid.svg" class="gear-icon" alt="My Happy SVG"/>
-      <h5>Configuración</h5>
-    </div>
-  </div>
-  <div id="settings" class="container hidden">
-    <h1 style="text-align: center; font-size: 50px;">Configuración</h1>
-    <label style="font-size: 30px;">Nombre variable de guardado</label>
-    <input type="text" id="save-variable-name" placeholder="save_mock">
-    <br><br>
-    <label style="font-size: 30px;">Nombre variable de mock</label>
-    <input type="text" id="mock-variable-name" placeholder="mock">
-    <br><br>
-    <label style="font-size: 30px;">URL herramienta de mocks</label>
-    <input type="text" id="mock-tool-url" placeholder="https://example.com/mock_tool">
-    <div id="save-changes-container" class="buttons-container">
-      <a class="btn btn-green" id="save">Guardar cambios</a>
-      <a class="btn btn-red" id="reset-config">Reset variables</a>
-    </div>
-    <div id="home">
-      <img src="./img/house-solid.svg" class="house-icon" alt="My Happy SVG"/>
-      <h5>Inicio</h5>
-    </div>
-  </div>
-  <div class="toast" aria-hidden="true" id="toast"></div>
-  <script type="module" src="js/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

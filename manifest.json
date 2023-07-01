@@ -1,19 +1,19 @@
 {
   "manifest_version": 3,
   "name": "Pepperfy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Google Chrome extension that consumes Mock Tools integrated in web apis",
   "permissions": [
     "tabs"
   ],
   "action": {
-    "default_icon": "img/icon.png",
+    "default_icon": "assets/icon.png",
     "default_popup": "index.html"
   },
   "icons": {
-    "16": "img/icon16.png",
-    "48": "img/icon48.png",
-    "128": "img/icon128.png"
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
   },
   "commands": {
     "_execute_action": {
