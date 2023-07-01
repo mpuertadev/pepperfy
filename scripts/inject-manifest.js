@@ -16,11 +16,11 @@ if (fs.existsSync(sourceFile)) {
   // Copiar el archivo
   fs.copyFile(sourceFile, destinationFile, (err) => {
     if (err) {
-      console.error('Error al copiar el archivo:', err);
+      console.error('Error while injecting manifest:', err);
     } else {
-      console.log('Archivo copiado exitosamente');
+      console.log('Manifest injected successfully');
     }
   });
 } else {
-  console.error('El archivo fuente no existe');
+  console.error('Manifest file not found');
 }
